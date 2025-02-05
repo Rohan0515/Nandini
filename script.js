@@ -5,7 +5,7 @@ document.getElementById('yes-button').addEventListener('click', function () {
   
   // Fun effect for the "Better Luck" button
   document.getElementById('no-button').addEventListener('click', function () {
-    alert("Just kidding! You have to say YES!");
+    alert("Nevertheless I would still love you!");
     this.style.transform = 'translateX(100px)';
     setTimeout(() => {
       this.style.transform = 'translateX(0)';
